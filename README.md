@@ -8,8 +8,6 @@ This repository contains the complete MATLAB source codes for reproducing the dy
 
 ## 📂 CONTENTS
 
-### **Short Chain Model (SCM)**
-
 - `Parameters_collection_BiTEs_55kDa.m`: Function containing the parameters regulating the transport of 55 kDa proteins (BiTE dimension is 55 kDa).
 - `recombinant_model.m`: Function containing the equations of the model for recombinant protein transport.
 
