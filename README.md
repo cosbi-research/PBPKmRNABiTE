@@ -10,19 +10,18 @@ This repository contains the complete MATLAB source codes for reproducing the dy
 
 ### **Short Chain Model (SCM)**
 
-- ``: Function containing the parameters regulating the transport of 55 kDa proteins (BiTE dimension is 55 kDa).
-- ``: Function containing the equations of the model for recombinant protein transport.
-- ``: Source code for the model simulation for both recombinant and mRNA-encoded protein administration in the Short Chain Model. Fixing the dose injected and the observation time window allows computing the time evolution of BiTEs' concentration in blood.
-- ``: Function containing the equations of the Short Chain Model.
-- ``: Function containing parameters related to mouse physiology, including species-specific protein transport, body parameters, tissue absorption dynamics, and mRNA transport dynamics for the Short Chain Model.
-- ``: `.mat` file containing estimated parameter values (e.g., rate of pinocytosis, mRNA degradation, and mRNA transfer rates) to fit data presented in *Huang\_2023* for the Short Chain Model.
+- `Parameters_collection_BiTEs_55kDa.m`: Function containing the parameters regulating the transport of 55 kDa proteins (BiTE dimension is 55 kDa).
+- `recombinant_model.m`: Function containing the equations of the model for recombinant protein transport.
 
-### **Long Chain Model (LCM)**
+- `SCM_simulation.m`: Source code for the model simulation for both recombinant and mRNA-encoded protein administration in the Short Chain Model. Fixing the dose injected and the observation time window allows computing the time evolution of BiTEs' concentration in blood.
+- `SCM.m`: Function containing the equations of the Short Chain Model.
+- `SCM_parameters_collection_mouse.m`: Function containing parameters related to mouse physiology, including species-specific protein transport, body parameters, tissue absorption dynamics, and mRNA transport dynamics for the Short Chain Model.
+- `SCM_parameters_estimated.mat`: `.mat` file containing estimated parameter values (e.g., rate of pinocytosis, mRNA degradation, and mRNA transfer rates) to fit data presented in *Huang\_2023* for the Short Chain Model.
 
-- ``: Source code for model simulation for both recombinant and mRNA-encoded protein administration in the Long Chain Model. Fixing the dose injected and observation time window allows computing the time evolution of BiTEs' concentration in blood.
-- ``: Function containing the equations of the Long Chain Model.
-- ``: Function containing parameters related to mouse physiology, including species-specific protein transport, body parameters, tissue absorption dynamics, and mRNA transport dynamics for the Long Chain Model.
-- ``: `.mat` file containing estimated parameter values (e.g., rate of pinocytosis, mRNA degradation, mRNA transfer rates) to fit data presented in *Huang\_2023* for the Long Chain Model.
+- `LCM_simulation.m`: Source code for model simulation for both recombinant and mRNA-encoded protein administration in the Long Chain Model. Fixing the dose injected and observation time window allows computing the time evolution of BiTEs' concentration in blood.
+- `LCM.m`: Function containing the equations of the Long Chain Model.
+- `LCM_parameters_collection_mouse.m`: Function containing parameters related to mouse physiology, including species-specific protein transport, body parameters, tissue absorption dynamics, and mRNA transport dynamics for the Long Chain Model.
+- `LCM_parameters_estimated.mat`: `.mat` file containing estimated parameter values (e.g., rate of pinocytosis, mRNA degradation, mRNA transfer rates) to fit data presented in *Huang\_2023* for the Long Chain Model.
 
 ---
 
@@ -31,22 +30,7 @@ This repository contains the complete MATLAB source codes for reproducing the dy
 To perform a simulation using the **Short Chain Model** or **Long Chain Model**:
 
 1. Navigate to the directory containing the model source files.
-2. In MATLAB, run:
-   ```matlab
-   SCM_simulation
-   ```
-   or
-   ```matlab
-   LCM_simulation
-   ```
-
-This will execute the respective model and simulate the BiTEs' concentration dynamics in the bloodstream.
-
----
-
-## 📌 Citation
-
-If you use this model in your research, please cite our paper: **A Multi-Scale Physiologically Based Pharmacokinetics Model to Support mRNA-Encoded BiTE Therapy in Cancer Treatment**.
+2. In MATLAB, run: SCM_simulation or LCM_simulation
 
 ---
 
