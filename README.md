@@ -30,7 +30,7 @@ This repository contains the complete MATLAB source codes for reproducing the dy
 To perform a simulation using the **Short Chain Model** or **Long Chain Model**:
 
 1. Navigate to the directory containing the model source files.
-2. In MATLAB, run: SCM_simulation or LCM_simulation
+2. In MATLAB, run: `SCM_simulation` or `LCM_simulation`.
 
 ---
 
