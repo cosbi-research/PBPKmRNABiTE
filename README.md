@@ -1,4 +1,4 @@
-# A Multi-Scale Physiologically Based Pharmacokinetics Model to Support mRNA-Encoded BiTE Therapy in Cancer Treatment
+# A Multi-Scale Physiologically Based Pharmacokinetic Model to Support mRNA-Encoded BiTE Therapy in Cancer Treatment
 
 **Authors:** Giada Fiandaca, Elio Campanile, Lorena Leonardelli, Elisa Pettinà, Stefano Giampiccolo, Elizabeth J Carstens, Lorenzo Dasti, Natascia Zangani, Luca Marchetti
 
